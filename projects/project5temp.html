@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form id="tempcal" onsubmit="calculatetemp(); return false">
+    <form id="tempcal" onsubmit="calculateTemp(); return false">
         <label for="">Please enter the temperature you'd like to convert</label>
         <br/>
         <input type="number" id="temp" >
@@ -16,8 +16,7 @@
             <option value="feh">fehrenheit</option>
         </select><br/>
         <input type="submit" name="submit">
-        <div id="resultcontainer"></div>
-
+        <span id="resultcontainer"></span>
     </form>
     <script src="project5temp.js"></script>
 </body>
