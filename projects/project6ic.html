@@ -5,12 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>project6</title>
+    <style>
+        body{
+            position: absolute;
+            background:black;
+            color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            align-items: center;
+        }
+        .counter-container
+        {
+            font-size: 30px;
+        }
+
+
+    </style>
 </head>
 <body>
 
-    <div class="counter">
-        <i class="fa-solid fa-mug-hot"></i>
+    <div class="counter-container">
+        <i class="fas fa-mug-hot fa-Jx"></i>
+        <div class="counter" data-target="4000"></div>
+        <span>Project completed</span>
+    </div>
+    <div class="counter-container">
+        <i class="fas fa-users fa-Jx"></i>
+        <div class="counter" data-target="15000"></div>
+        <span>our happy clients</span>
+    </div>
+    <div class="counter-container">
+        <i class="fas fa-tasks fa-Jx"></i>
+        <div class="counter" data-target="500"></div>
+        <span>ongoing project</span>
     </div>
     <script src="project6ic.js"></script>
 </body>
